@@ -29,3 +29,12 @@ nav {
 #favicon-card-text {
     font-size: 25px;
 }
+
+.icons-footer {
+    font-size: 30px;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+}
