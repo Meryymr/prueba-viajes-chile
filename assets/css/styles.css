@@ -1,0 +1,39 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+nav img {
+    height: 35px;
+    width: 35px;
+    padding-right: 5px;
+}
+
+nav {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+nav:hover {
+    background-color: rgba(0, 0, 0, 0.806);
+}
+
+#us {
+    background-color: #000000;
+}
+
+.card-body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+#favicon-card-text {
+    font-size: 25px;
+}
+
+.icons-footer {
+    font-size: 40px;
+}
