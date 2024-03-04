@@ -9,10 +9,19 @@ nav img {
 }
 
 nav {
-    background-color: transparent !important;
+    background-color: transparent;
     ;
 }
 
 #us {
     background-color: #000000;
+}
+
+.card-body {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.card-text {
+    font-size: 13px;
 }
