@@ -22,6 +22,12 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
+    <!--JQUERY-->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <!--GOOGLE FONTS MONTSERRAT-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,7 +55,8 @@
             <div class="container">
                 <img class="img" " src=" ./assets/img/viajes.svg"
                     alt="Logotipo Viajes Chile">
-                <a class="navbar-brand text-white" href="#"> Viajes Chile</a>
+                <a class="navbar-brand text-white" href="#home"> Viajes
+                    Chile</a>
                 <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup"
@@ -232,7 +239,7 @@
             </h4>
             <hr>
             <div class="container text-start bg-black ">
-                <div class="row row-cols-4 m-0 ">
+                <div class="row row-cols-1 row-cols-md-4 m-0 ">
                     <div class="col">
                         <div class="card" style="width: 100%;">
                             <img src="./assets/img/card1.jpg"
@@ -282,7 +289,7 @@
                         </div>
                     </div>
 
-                    <div class="col pb-5 ">
+                    <div class="col">
                         <div class="card" style="width: 100%;">
                             <img src="./assets/img/card4.jpg"
                                 class="card-img-top" alt="Bosque">
@@ -342,15 +349,19 @@
     <!--FIN SECCIÓN FORMULARIO-->
 
     <!--INICIO FOOTER-->
-    <footer class="bg-info text-white pt-3 pb-3 d-flex justify-content-around ">
-
-        <h4 class="fw-light text-start ps-5">VIAJES CHILE</h4>
-
-        <div class="icons-footer text-end pe-5">
-            <i class="fa-brands fa-square-github"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-square-twitter"></i>
-            <i class="fa-brands fa-square-facebook"></i>
+    <footer class="container-fluid bg-info text-white">
+        <div class="row ">
+            <div class="col col-3 wrapper-icons-footer">
+                <p class="fs-3 fw-light text-end">
+                    VIAJES
+                    CHILE</p>
+            </div>
+            <div class=" col-6 icons-footer pe-5 text-end"> <i
+                    class="fa-brands fa-square-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+            </div>
         </div>
 
     </footer>

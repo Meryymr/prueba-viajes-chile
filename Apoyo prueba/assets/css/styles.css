@@ -10,7 +10,11 @@ nav img {
 
 nav {
     background-color: transparent;
-    ;
+    transition: background-color 0.3s ease;
+}
+
+nav:hover {
+    background-color: rgba(0, 0, 0, 0.806);
 }
 
 #us {
@@ -31,5 +35,5 @@ nav {
 }
 
 .icons-footer {
-    font-size: 30px;
+    font-size: 40px;
 }
