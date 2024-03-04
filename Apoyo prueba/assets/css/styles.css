@@ -25,3 +25,7 @@ nav {
 .card-text {
     font-size: 13px;
 }
+
+#favicon-card-text {
+    font-size: 25px;
+}
